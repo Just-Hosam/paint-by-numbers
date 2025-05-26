@@ -1,7 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import "./index.css"
-import { App, Find } from "./App"
+import App from "./App"
+import Find from "./components/Find"
 import reportWebVitals from "./reportWebVitals"
 import { BrowserRouter, Route, Routes } from "react-router"
 

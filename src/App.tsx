@@ -2,7 +2,7 @@ import { NavLink } from "react-router"
 import "./App.css"
 import { Button } from "@mui/material"
 
-export function App() {
+function App() {
   return (
     <div className="App">
       <h1>Find my Numbers</h1>
@@ -13,11 +13,4 @@ export function App() {
   )
 }
 
-export function Find() {
-  return (
-    <div className="Find">
-      <h1>Find Numbers</h1>
-      <p>This is the Find Numbers page.</p>
-    </div>
-  )
-}
+export default App
